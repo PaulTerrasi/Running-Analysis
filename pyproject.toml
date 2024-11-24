@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "running-analysis"
+version = "0.1.0"
+description = "Analyis of running data"
+authors = ["Paul Terrasi <Paul.A.Terrasi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+notebook = "^7.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
